@@ -11,10 +11,11 @@ class ChattyStudent < Student
       i += 2
       super
       puts "Pick me!"
-    if i == 10
-      break       # this will cause execution to exit the loop
-    end
-  end      
+      if i == 10
+        break       # this will cause execution to exit the loop
+      end
+    end   
+  end
     
   
   
