@@ -6,8 +6,15 @@ class ChattyStudent < Student
     end
     
   def raise_hand
-    super
-        
+    i = 0
+    loop do
+      i += 2
+      super
+      puts "Pick me!"
+    if i == 10
+      break       # this will cause execution to exit the loop
+    end
+  end      
     
   
   
